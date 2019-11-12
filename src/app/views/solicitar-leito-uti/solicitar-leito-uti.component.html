@@ -1,0 +1,548 @@
+<div class="animated fadeIn">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header">
+                    <small>Formulário</small>
+                    <strong>Dados pessoais do paciente</strong>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <label for="CartaoSUS">Cartão SUS</label>
+                                <input type="text" class="form-control" id="CartaoSUS" placeholder="Digite o número do cartão SUS do paciente">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="nome">Nome</label>
+                                <input type="text" class="form-control" id="nome" placeholder="Digite o nome do paciente">
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <label for="sexo">Sexo</label>
+                            <div class="col-md-9 col-form-label">
+                                <div class="form-check form-check-inline mr-1" id="inline-radios">
+                                    <input class="form-check-input" type="radio" name="inline-radios" id="inlineradiosMasculino" value="masculino">
+                                    <label class="form-check-label" for="inlineradiosMasculino">Masculino</label>
+                                </div>
+                                <div class="form-check form-check-inline mr-1" id="inline-radios">
+                                        <input class="form-check-input" type="radio" name="inline-radios" id="inlineradiosFeminino" value="feminino">
+                                        <label class="form-check-label" for="inlineradiosMasculino">Feminino</label>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <label for="idade">Idade</label>
+                                <input type="text" class="form-control" id="idade" placeholder="Digite a idade do paciente">
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="text" class="form-control" id="email" placeholder="Digite o email do paciente">
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label for="telefone">Número de contato</label>
+                                <input type="text" class="form-control" id="telefone" placeholder="Digite o número de contato do paciente">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header">
+                    <small>Formulário</small>
+                    <strong>Endereço do paciente</strong>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <label for="cep">CEP</label>
+                                <input type="text" class="form-control" id="cep" placeholder="Digite o CEP">
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label for="logradouro">Logradouro</label>
+                                <input type="text" class="form-control" id="logradouro" placeholder="Digite a rua ou avenida">
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <label for="numeroresidencial">Número residencial</label>
+                                <input type="text" class="form-control" id="numeroresidencial" placeholder="Digite o número ">
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <label for="numeroresidencial">Bairro</label>
+                                <input type="text" class="form-control" id="numeroresidencial" placeholder="Digite o bairro">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <label for="municipio">Município</label>
+                                <input type="text" class="form-control" id="municipio" placeholder="Digite o municipio">
+                            </div>
+                        </div>
+                        <div class="col-sm-2 form-group">
+                            <label for="estado">Estado</label>
+                            <select name="estado" id="estado" class="form-control">
+                                <option>Rio Grande Do Norte</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-4">
+                            <label for="Seridó">O paciente é do Seridó (4ª Região)? </label>
+                            <div class="col-md-9 col-form-label">
+                                <div class="form-check form-check-inline mr-1" id="inline-radios">
+                                    <input class="form-check-input" type="radio" name="inline-radios" id="inlineradiosSim" value="Sim">
+                                    <label class="form-check-label" for="inlineradiosSim">Sim</label>
+                                </div>
+                                <div class="form-check form-check-inline mr-1" id="inline-radios">
+                                    <input class="form-check-input" type="radio" name="inline-radios" id="inlineradiosNao" value="Nao">
+                                    <label class="form-check-label" for="inlineradiosNao">Não</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header">
+                    <small>Formulário</small>
+                    <strong>Anamnese do paciente</strong>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <label for="gestante">A paciente está gestante? </label>
+                            <div class="col-md-9 col-form-label">
+                                <div class="form-check form-check-inline mr-1" id="inline-radios">
+                                    <input class="form-check-input" type="radio" name="inline-radios" id="inlineradiosSim" value="sim">
+                                    <label class="form-check-label" for="inlineradiosSim">Sim</label>
+                                </div>
+                                <div class="form-check form-check-inline mr-1" id="inline-radios">
+                                    <input class="form-check-input" type="radio" name="inline-radios" id="inlineradiosNao" value="Nao">
+                                    <label class="form-check-label" for="inlineradiosNao">Não</label>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="col-sm-2">
+                            <label for="Admissão">Data de Admissão</label>
+                            <input class="form-control" id="Admissão" type="date" name="Admissão" placeholder="date">
+                        </div>
+                        <div class="col-sm-3 form-group">
+                            <label for="Solicitante">Unidade Solicitante</label>
+                            <select name="Solicitante" id="Solicitante" class="form-control">
+                                <option>Selecione a unidade solicitante</option>
+                                <option>APAMI - Mossoró/RN</option>
+                                <option>Hospital e maternidade café filho (Extremos)</option>
+                                <option>Hospital da polícia</option>
+                                <option>Hospital Deoclécio Marques (HDM)</option>
+                                <option>Hospital de Arêz (Dr. Juca)</option>
+                                <option>Hospital de Ceará-Mirim</option>
+                                <option>Hospital do Seridó (Caicó)</option>
+                                <option>Hospital Dr. José Pedro Germano</option>
+                                <option>Hospital Giselda Trigueiro</option>
+                                <option>Hospital Monsenhor Walfredo Gurgel (HMWG)</option>
+                                <option>Hospital Municipal de Natal</option>
+                                <option>Hospital Maria Alice Fernandes</option>
+                                <option>Hospital Reg. de Apodi</option>
+                                <option>Hospital Reg. de Assú</option>
+                                <option>Hospital Reg. de Canguaretama</option>
+                                <option>Hospital Reg. de Caraúbas</option>
+                                <option>Hospital Reg. de Currais Novos</option>
+                                <option>Hospital Reg. de João Câmara</option>
+                                <option>Hospital Reg. de São Paulo de Potengi</option>
+                                <option>Hospital Reg. do Seridó (Caicó)</option>
+                                <option>Hospital Reg. de Pau dos Ferros</option>
+                                <option>Hospital Reg. Tarcísio Maia (HRTM)</option>
+                                <option>Hospital Ruy Pereira (HRP)</option>
+                                <option>Hospital Universitário Ana Bezerra (HUAB)</option>
+                                <option>Hospital Universitário Onofre Lopes (HUOL)</option>
+                                <option>Maternidade Escola Januário Cicco (MEJC)</option>
+                                <option>Maternidade Divino Amor (MDA)</option>
+                                <option>UPA - Cidade da Esperança (Natal)</option>
+                                <option>UPA - Parnamirim</option>
+                                <option>UPA - Goianinha</option>
+                                <option>UPA - Macaíba</option>
+                                <option>UPA - Pajuçara (Natal)</option>
+                                <option>UPA - Potengi (Natal)</option>
+                                <option>UPA - Satélite/Sul (Natal)</option>
+                                <option>UPA - São José de Mipibú</option>
+                                <option>Outra unidade</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label for="unidade-solicitante">Outra unidade Solicitante. Qual?</label>
+                                <input type="text" class="form-control" id="unidade-solicitante" placeholder="Digite o nome da unidade solicitante">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label for="unidade-telefone">Telefone da unidade</label>
+                                <input type="text" class="form-control" id="unidade-telefone" placeholder="Digite o telefone da unidade solicitante">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <label for="internamento">Motivo do internamento</label>
+                            <div class="col-md-12 col-form-label">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="form-check form-check-inline mr-1" id="inline-radios">
+                                            <input class="form-check-input" type="radio" name="inline-radios" id="inlineradiosClinico" value="clinico">
+                                            <label class="form-check-label" for="inlineradiosClinico">Clínico</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check form-check-inline mr-1" id="inline-radios">
+                                            <input class="form-check-input" type="radio" name="inline-radios" id="inlineradiosCirurgico" value="cirurgico">
+                                            <label class="form-check-label" for="inlineradiosCirurgico">Cirúrgico</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check form-check-inline mr-1" id="inline-radios">
+                                            <input class="form-check-input" type="radio" name="inline-radios" id="inlineradiosObstetrico" value="obstetrico">
+                                            <label class="form-check-label" for="inlineradiosObstetrico">Obstétrico</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">                                        
+                                        <div class="form-check form-check-inline mr-1" id="inline-radios">
+                                            <input class="form-check-input" type="radio" name="inline-radios" id="inlineradiosTrauma" value="trauma">
+                                            <label class="form-check-label" for="inlineradiosTrauma">Trauma</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <label for="isolamento">Tipo de isolamento</label>
+                            <div class="col-md-12 col-form-label">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="form-check form-check-inline mr-1" id="inline-radios">
+                                            <input class="form-check-input" type="radio" name="inline-radios" id="inlineradiosContato" value="contato">
+                                            <label class="form-check-label" for="inlineradiosContato">Contato</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check form-check-inline mr-1" id="inline-radios">
+                                            <input class="form-check-input" type="radio" name="inline-radios" id="inlineradiosRespiratorio" value="Respiratorio">
+                                            <label class="form-check-label" for="inlineradiosRespiratorio">Respiratório</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check form-check-inline mr-1" id="inline-radios">
+                                            <input class="form-check-input" type="radio" name="inline-radios" id="inlineradiosSemIsolamento" value="semIsolamento">
+                                            <label class="form-check-label" for="inlineradiosSemIsolamento">Sem isolamento</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <label for="diagnostico">Tipo de Diagnóstico</label>
+                            <div class="col-md-12 col-form-label">
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <div class="form-check form-check-inline mr-1" id="inline-radios">
+                                            <input class="form-check-input" type="radio" name="inline-radios" id="inlineradiosDoençaAguda" value="DoençaAguda">
+                                            <label class="form-check-label" for="inlineradiosDoençaAguda">Doença aguda</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="form-check form-check-inline mr-1" id="inline-radios">
+                                            <input class="form-check-input" type="radio" name="inline-radios" id="inlineradiosDoençaCrônicaCompensada" value="DoençaCrônicaCompensada">
+                                            <label class="form-check-label" for="inlineradiosDoençaCrônicaCompensada">Doença crônica compensada</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-2">
+                                        <div class="form-check form-check-inline mr-1" id="inline-radios">
+                                            <input class="form-check-input" type="radio" name="inline-radios" id="inlineradiosDoençaCrônicaAvançada" value="DoençaCrônicaAvançada">
+                                            <label class="form-check-label" for="inlineradiosDoençaCrônicaAvançada">Doença crônica avançada</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <label for="pa">PA do paciente</label>
+                                <input type="text" class="form-control" id="pa" placeholder="Digite o valor" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <label for="frequencia-respiratoria">Frequência respiratória</label>
+                                <input type="text" class="form-control" id="frequencia-respiratoria" placeholder="Digite o valor" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <label for="frequencia-cardiaca">Frequência cardíaca</label>
+                                <input type="text" class="form-control" id="frequencia-cardiaca" placeholder="Digite o valor" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <label for="spo2">SpO2</label>
+                                <input type="text" class="form-control" id="spo2" placeholder="Digite o valor" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 form-group">
+                            <label for="glasgow">Escala de Coma de Glasgow</label>
+                            <select name="Glasgow" id="Glasgow" class="form-control">
+                                <option>Selecione uma Escala de Coma de Glasgow</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12 ">
+                            <label>Dispositivos</label>
+                            <div class="col-md-12 col-form-label">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="form-check form-check-inline mr-1">
+                                            <input class="form-check-input" type="checkbox" id="inline-checkbox-iot" value="iot">
+                                            <label class="form-check-label" for="inline-checkbox-iot">IOT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check form-check-inline mr-1">
+                                            <input class="form-check-input" type="checkbox" id="inline-checkbox-tqt" value="tqt">
+                                            <label class="form-check-label" for="inline-checkbox-tqt">TQT</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check form-check-inline mr-1">
+                                            <input class="form-check-input" type="checkbox" id="inline-checkbox-venoso-central" value="venoso-central">
+                                            <label class="form-check-label" for="inline-checkbox-venoso-central">Acesso venoso central</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check form-check-inline mr-1">
+                                            <input class="form-check-input" type="checkbox" id="inline-checkbox-venoso-periferico" value="venoso-periferico">
+                                            <label class="form-check-label" for="inline-checkbox-venoso-periferico">Acesso venoso periférico</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check form-check-inline mr-1">
+                                            <input class="form-check-input" type="checkbox" id="inline-checkbox-svd" value="svd">
+                                            <label class="form-check-label" for="inline-checkbox-svd">SVD</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-md-2">
+                                            <div class="form-check form-check-inline mr-1">
+                                                <input class="form-check-input" type="checkbox" id="inline-checkbox-sne" value="sne">
+                                                <label class="form-check-label" for="inline-checkbox-sne">SNE/SNG</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-check form-check-inline mr-1">
+                                                <input class="form-check-input" type="checkbox" id="inline-checkbox-drenos" value="drenos">
+                                                <label class="form-check-label" for="inline-checkbox-drenos">Drenos</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-check form-check-inline mr-1">
+                                                <input class="form-check-input" type="checkbox" id="inline-checkbox-cpap" value="cpap">
+                                                <label class="form-check-label" for="inline-checkbox-cpap">CPAP</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-check form-check-inline mr-1">
+                                                <input class="form-check-input" type="checkbox" id="inline-checkbox-bipap" value="bipap">
+                                                <label class="form-check-label" for="inline-checkbox-bipap">BIPAP</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="form-check form-check-inline mr-1">
+                                                <input class="form-check-input" type="checkbox" id="inline-checkbox-nenhum" value="nenhum">
+                                                <label class="form-check-label" for="inline-checkbox-nenhum">Nenhum Dispositivos</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-12 ">
+                            <label>Suportes de UTI</label>
+                            <div class="col-md-12 col-form-label">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="form-check form-check-inline mr-1">
+                                            <input class="form-check-input" type="checkbox" id="inline-checkbox-ventilacao-mecanica" value="ventilacao-mecanica">
+                                            <label class="form-check-label" for="inline-checkbox-ventilacao-mecanica">Ventiçação mecânica</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check form-check-inline mr-1">
+                                            <input class="form-check-input" type="checkbox" id="inline-checkbox-mascara-venturi" value="mascara-venturi">
+                                            <label class="form-check-label" for="inline-checkbox-mascara-venturi">Máscara de venturi</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check form-check-inline mr-1">
+                                            <input class="form-check-input" type="checkbox" id="inline-checkbox-cateter" value="cateter">
+                                            <label class="form-check-label" for="inline-checkbox-cateter">Cateter de O2</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check form-check-inline mr-1">
+                                            <input class="form-check-input" type="checkbox" id="inline-checkbox-hemodialise" value="hemodialise">
+                                            <label class="form-check-label" for="inline-checkbox-hemodialise">Hemodiálise</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-check form-check-inline mr-1">
+                                            <input class="form-check-input" type="checkbox" id="inline-checkbox-drogas-vasoativas" value="drogas-vasoativas">
+                                            <label class="form-check-label" for="inline-checkbox-drogas-vasoativas">Drogas vasoativas (noradrenalina, dopamina...)</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="form-check form-check-inline mr-1">
+                                            <input class="form-check-input" type="checkbox" id="inline-checkbox-drogas-inotropicas" value="drogas-inotropicas">
+                                            <label class="form-check-label" for="inline-checkbox-drogas-inotropicas">Drogas inotrópicas</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check form-check-inline mr-1">
+                                            <input class="form-check-input" type="checkbox" id="inline-checkbox-sedativos" value="sedativos">
+                                            <label class="form-check-label" for="inline-checkbox-sedativos">Sedativos</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check form-check-inline mr-1">
+                                            <input class="form-check-input" type="checkbox" id="inline-checkbox-marcapasso" value="marcapasso">
+                                            <label class="form-check-label" for="inline-checkbox-marcapasso">Marcapasso</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check form-check-inline mr-1">
+                                            <input class="form-check-input" type="checkbox" id="inline-checkbox-nutricao-parenteral" value="nutricao-parenteral">
+                                            <label class="form-check-label" for="inline-checkbox-nutricao-parenteral">Nutrição parenteral</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <div class="form-check form-check-inline mr-1">
+                                            <input class="form-check-input" type="checkbox" id="inline-checkbox-nenhum" value="nenhum">
+                                            <label class="form-check-label" for="inline-checkbox-nenhum">Nenhum suporte</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <label for="hematocrito">Hematócrito</label>
+                                <input type="text" class="form-control" id="hematocrito" placeholder="Digite o valor" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <label for="hemoglobina">Hemoglobina</label>
+                                <input type="text" class="form-control" id="hemoglobina" placeholder="Digite o valor" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <label for="leucocitos">Leucócitos</label>
+                                <input type="text" class="form-control" id="leucocitos" placeholder="Digite o valor" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <label for="ureia">Ureia</label>
+                                <input type="text" class="form-control" id="ureia" placeholder="Digite o valor" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <label for="creatinina">Creatinina</label>
+                                <input type="text" class="form-control" id="creatinina" placeholder="Digite o valor" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <label for="outro-exames">Outros exames</label>
+                                <input type="text" class="form-control" id="outro-exames" placeholder="Digite outros exames" required>
+                                <span class="help-block">Separar exames com virgulas.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-12">
+                            <label  for="textarea-input">Resumo do quadro:</label>
+                            <textarea id="textarea-input" name="textarea-input" rows="4" class="form-control" placeholder="Digite aqui um resumo do quadro do paciente.."></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-4">
+                            <label for="file-input">Cópia da prescrição do dia</label> <br>
+                            <input type="file" id="file-input" name="file-input">
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label for="medico-solicitante">Nome do médico solicitante</label>
+                                <input type="text" class="form-control" id="medico-solicitante" placeholder="Digite o nome medico solicitante" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">Realizar solicitação de leito</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
